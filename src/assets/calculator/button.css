@@ -1,0 +1,33 @@
+
+.calculator-button{
+    width: calc(25% - 10px);
+    border:0px;
+    border-radius: 10px;
+    display: table-cell;
+    white-space: nowrap;
+    margin-bottom:10px;
+    outline:none;
+    padding:10px 0px 10px 0px;
+}
+.grey-button:hover{
+    background-color:#b0b0b0;
+    
+}
+.blue-button:hover{
+    background-color: #1469be;
+}
+.calculator-button + .calculator-button{
+    margin-left:10px;
+}
+.grey-button{
+    background-color:#c2c2c2;
+    color:black;
+}
+.white-button{
+    background-color: #fff;
+    color:black;
+}
+.blue-button{
+    background-color: #1775d4;
+    color:white;
+}
